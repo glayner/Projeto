@@ -1,0 +1,7 @@
+header.header{
+    background-color: #1A2F3A;
+    color: #f5f5f5;
+    display: flex;
+    justify-items: center;
+    justify-content: flex-start;
+}
