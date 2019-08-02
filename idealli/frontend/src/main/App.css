@@ -1,3 +1,4 @@
+
 aside.logo{grid-area: logo;}
 header.header{grid-area: header;}
 main.content{grid-area: content;}
@@ -5,7 +6,7 @@ footer.footer{grid-area: footer;}
 
 *{
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Lato", sans-serif;
 }
 .app{
     margin: 0px;
