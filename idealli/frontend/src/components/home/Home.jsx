@@ -13,8 +13,9 @@ import cortina from '../../assets/cortinas/cortina1.jpg'
 import perseana from '../../assets/perseanas/perseana1.jpg'
 import papelDeParede from '../../assets/papeisDeParede/papeldeparede1.jpg'
 import toldo from '../../assets/toldos/toldo1.jpg'
+import demais from '../../assets/demais/demais1.jpg'
 
-import { Carousel, Button } from 'react-bootstrap'
+import { Carousel } from 'react-bootstrap'
 
 export default props =>
     <Main>
@@ -24,57 +25,57 @@ export default props =>
                 <Carousel.Item>
                     <img src={slide1} alt="slide1" className='d-block w-100 mx-auto' />
                     <Carousel.Caption className='text-carousel'>
-                        <h1>descrição do primeiro slide</h1>
-                        <p>aqui vai na minuncia</p>
+                        <h1>Idealli Decorações</h1>
+                        <p>do seu jeito</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img src={slide2} alt="slide2" className='d-block w-100 mx-auto' />
                     <Carousel.Caption className='text-carousel'>
-                        <h1>descrição do segundo slide</h1>
-                        <p>aqui vai na minuncia</p>
+                        <h1>Soluções</h1>
+                        <p>para todos os seus ambientes</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img src={slide3} alt="slide3" className='d-block w-100 mx-auto' />
                     <Carousel.Caption className='text-carousel'>
-                        <h1>descrição do terceiro slide</h1>
-                        <p>aqui vai na minuncia</p>
+                        <h1>Sua satisfação</h1>
+                        <p>nossa responsabilidade</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img src={slide4} alt="slide4" className='d-block w-100 mx-auto' />
                     <Carousel.Caption className='text-carousel'>
-                        <h1>descrição do quarto slide</h1>
-                        <p>aqui vai na minuncia</p>
+                        <h1>Delicadeza, requinte, Durabilidade</h1>
+                        <p>o seu ambiente Idealli</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img src={slide5} alt="slide5" className='d-block w-100 mx-auto' />
                     <Carousel.Caption className='text-carousel'>
-                        <h1>descrição do quinto slide</h1>
-                        <p>aqui vai na minuncia</p>
+                        <h1>Transformando o seu ambiente</h1>
+                        <p>Bem-vindo a Idealli</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img src={slide6} alt="slide6" className='d-block w-100 mx-auto' />
                     <Carousel.Caption className='text-carousel'>
-                        <h1>descrição do sexto slide</h1>
-                        <p>aqui vai na minuncia</p>
+                        <h1>Soluções inteligentes</h1>
+                        <p>para a garotada</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img src={slide7} alt="slide7" className='d-block w-100 mx-auto' />
                     <Carousel.Caption className='text-carousel'>
-                        <h1>descrição do setimo slide</h1>
-                        <p>aqui vai na minuncia</p>
+                        <h1>Leveza, Luxo e Exclusividade</h1>
+                        <p>nós criamos o seu ambiente</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img src={slide8} alt="slide8" className='d-block w-100 mx-auto' />
                     <Carousel.Caption className='text-carousel'>
-                        <h1>descrição do oitavo slide</h1>
-                        <p>aqui vai na minuncia</p>
+                        <h1>Sheer Elegance</h1>
+                        <p>Funcionalidade e Qualidade</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
@@ -84,7 +85,7 @@ export default props =>
             <figure className="effect-layla">
                 <img src={cortina} alt="img01" />
                 <figcaption>
-                    <h2> <span>Cortinas</span></h2>
+                    <h2> <span>Cortina</span></h2>
                     <p>Conheça nossas cortinas sob medida para voĉe.</p>
                     <a href="cortinas">View more</a>
                 </figcaption>
@@ -92,13 +93,13 @@ export default props =>
             <figure className="effect-layla">
                 <img src={perseana} alt="img02" />
                 <figcaption>
-                    <h2> <span>Perseanas</span></h2>
+                    <h2> <span>Perseana</span></h2>
                     <p>As melhores perseanas para sua casa.</p>
                     <a href="perseanas">View more</a>
                 </figcaption>
             </figure>
-            </div>
-            <div className="grid d-sm-flex">
+        </div>
+        <div className="grid d-sm-flex">
             <figure className="effect-layla">
                 <img src={papelDeParede} alt="img03" />
                 <figcaption>
@@ -116,15 +117,27 @@ export default props =>
                 </figcaption>
             </figure>
         </div>
-
+        <div className="grid d-sm-flex">
+            <div className="m-5 d-lg-flex d-none"></div>
+            <div className="m-5 d-lg-flex d-none"></div>
+            <div className="m-5 d-lg-flex d-none"></div>
+            <figure className="effect-layla">
+                <img src={demais} alt="img03" />
+                <figcaption>
+                    <h2><span>Almofada, Futton e Tapete</span></h2>
+                    <p>Diversos outros produtos para embelezar a sua casa.</p>
+                    <a href="demais">View more</a>
+                </figcaption>
+            </figure>
+        </div>
         <div className="container">
             <div className="apresentacao">
                 <h1 className="display-4">Idealli decorações</h1>
                 <p className="lead">O melhor para o seu ambiente</p>
                 <hr className="my-4" />
                 <p>Entre em contato com nossos vendedores para fazer um orçamento perfeito para você</p>
-                <a href="https://whatsfacil.com/b39ecd" target="_blank" rel="noopener noreferrer" className='link-orcamento mx-auto'>
-                    <Button variant='success' size='lg'>Solicite seu orçamento <i className="fa fa-whatsapp"></i></Button>
+                <a href="https://whatsfacil.com/b39ecd" target="_blank" rel="noopener noreferrer" className="btn btn-outline-success m-5 btn-lg" >
+                    Solicite o orçamento <i className="fa fa-whatsapp"></i>
                 </a>
             </div>
         </div>

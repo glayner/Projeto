@@ -6,6 +6,7 @@ import Cortinas from '../components/produtos/Cortinas/Cortinas'
 import Perseanas from '../components/produtos/perseanas/perseanas'
 import PapelDeParede from '../components/produtos/PapelDeParede/PapelDeParede'
 import Toldos from '../components/produtos/Toldos/Toldos'
+import Demais from '../components/produtos/Demais/Demais'
 import Localizacao from '../components/localizacao/localizacao'
 
 export default props=>
@@ -15,6 +16,7 @@ export default props=>
         <Route exact path='/perseanas' component={Perseanas}/>
         <Route exact path='/papeldeparede' component={PapelDeParede}/>
         <Route exact path='/toldos' component={Toldos}/>
+        <Route exact path='/demais' component={Demais}/>
         <Route exact path='/localizacao' component={Localizacao}/>
         <Redirect from='*' to='/' />
     </Switch>

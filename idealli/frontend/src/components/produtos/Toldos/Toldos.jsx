@@ -26,4 +26,9 @@ export default props =>
                 </Carousel.Item>
             </Carousel>
         </div>
+        <h1 className='m-5'>Toldos articulados</h1>
+        <p className='ml-5'>Solicite já o seu orçamento e desfrute da beleza e conforto pelo melhor cursto beneficio.</p>
+        <a href="https://whatsfacil.com/b39ecd" target="_blank" rel="noopener noreferrer" className="btn btn-outline-success ml-5 mb-5 btn-lg" >
+            Solicite seu orçamento de toldos  <i className="fa fa-whatsapp"></i>
+        </a>
     </Main>
