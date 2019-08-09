@@ -7,7 +7,7 @@ import {
     Text,
     TextInput,
     TouchableOpacity,
-} from 'react-native';
+} from 'react-native'; 
 
 import api from '../services/api';
 
