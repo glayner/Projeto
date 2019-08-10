@@ -35,7 +35,6 @@ export default function Login({ navigation }) {
             const { _id } = response.data;
 
             await AsyncStorage.setItem('user', _id)
-            console.log(_id) 
 
             navigation.navigate('Main', { user: _id });
         } catch (error) { console.log(error) }
