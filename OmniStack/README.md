@@ -1,1 +1,0 @@
-Projeto desenvolvido pela Rocketseat 
